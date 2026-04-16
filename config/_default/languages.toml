@@ -17,3 +17,13 @@
   weight = 20
   [es.params]
     footer = 'Powered by a lot of love ❤️ (and code) - By Juan Pablo Tosso and Coraza Contributors'
+
+[ar]
+  contentDir = "content/ar"
+  disabled = false
+  languageCode = "ar"
+  languageDirection = "rtl"
+  languageName = "العربية"
+  weight = 20
+  [ar.params]
+    footer = 'مدعوم بالكثير من الحب ❤️ (والكود) - بقلم خوان بابلو توسو ومساهمي Coraza'

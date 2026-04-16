@@ -84,3 +84,10 @@ other = "Únete a Slack"
 
 [home_open_source]
 other = "Código Abierto"
+
+# Blog
+[blog_language_note]
+other = "Es posible que no todos los artículos estén traducidos. Para ver los más recientes:"
+
+[blog_language_switch]
+other = "Ver el blog en inglés"

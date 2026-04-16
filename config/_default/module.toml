@@ -7,6 +7,28 @@
 # the site. They allow for custom directory structures and integrating content
 # from different locations.
 
+## content — explicit mounts per language (required when using lang-specific mounts)
+[[mounts]]
+  source = "content/en"
+  target = "content"
+  lang = "en"
+
+[[mounts]]
+  source = "content/es"
+  target = "content"
+  lang = "es"
+
+[[mounts]]
+  source = "content/ar"
+  target = "content"
+  lang = "ar"
+
+# Fallback: serve English docs on the Arabic site
+[[mounts]]
+  source = "content/en/docs"
+  target = "content/docs"
+  lang = "ar"
+
 ## data
 [[mounts]]
   source = "node_modules/@thulite/doks-core/data"

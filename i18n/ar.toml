@@ -1,0 +1,156 @@
+# واجهة المستخدم (من قالب doks-core)
+
+[404_title]
+other = "الصفحة غير موجودة :("
+
+[404_text]
+other = "الصفحة التي تبحث عنها غير موجودة أو تم نقلها."
+
+[browse]
+other = "تصفّح"
+
+[chapter_next]
+other = "التالي"
+
+[chapter_previous]
+other = "السابق"
+
+[edit_page]
+other = "عدّل هذه الصفحة على"
+
+[get_started]
+other = "دليل المثال"
+
+[home]
+other = "الرئيسية"
+
+[in]
+other = "في"
+
+[by]
+other = "بقلم"
+
+[last_updated]
+other = "آخر تحديث"
+
+[minute]
+one = "دقيقة"
+other = "دقائق"
+
+[on_this_page]
+other = "في هذه الصفحة"
+
+[reading_time]
+other = "وقت القراءة المقدّر"
+
+[search_loading]
+other = "جارٍ تحميل فهرس البحث…"
+
+[search_no_recent]
+other = "لا توجد عمليات بحث حديثة"
+
+[search_no_results]
+other = "لا توجد نتائج"
+
+[search_placeholder]
+other = "بحث"
+
+[search_title]
+other = "بحث"
+
+[video_unsupported]
+other = "متصفحك لا يدعم الفيديو المضمّن، لكن لا تقلق، يمكنك <a href=\"{{ .RelPermalink }}\">تنزيله</a> ومشاهدته بمشغّل الفيديو المفضّل لديك!"
+
+# الصفحة الرئيسية
+
+[home_badge]
+other = "مشروع OWASP في مرحلة الإنتاج"
+
+[home_get_started]
+other = "ابدأ الآن"
+
+[home_learn_more]
+other = "اعرف المزيد"
+
+# شبكة Bento
+[home_bento_title]
+other = "مبني للواجهات البرمجية الحديثة"
+
+[home_bento_desc]
+other = "حماية عالية الأداء لنقاط نهاية REST وGraphQL وgRPC. يتعامل Coraza مع إنتاجية ضخمة بتأثير ضئيل على زمن الاستجابة."
+
+[home_enterprise_title]
+other = "جاهز للمؤسسات"
+
+[home_enterprise_desc]
+other = "مُقوَّى للبنية التحتية الحيوية وبيئات التوافر العالي."
+
+[home_legacy_title]
+other = "الأنظمة القديمة"
+
+[home_legacy_desc]
+other = "بديل مباشر لـ ModSecurity، يدعم مجموعات القواعد وسير العمل الحالية."
+
+[home_universal_title]
+other = "نشر شامل"
+
+[home_universal_desc]
+other = "يعمل كـ sidecar أو proxy أو مكتبة في Go وC++ وWebAssembly."
+
+# قسم لماذا
+[home_why_title]
+other = "لماذا تختار فرق الأمان Coraza"
+
+[home_why_subtitle]
+other = "مهندَس لمشهد الأمان الحديث."
+
+[home_security_title]
+other = "الأمان أولاً"
+
+[home_security_desc]
+other = "الاختبار الصارم والتوافق الكامل مع OWASP CRS يضمنان حماية تطبيقاتك من أهم التهديدات منذ اليوم الأول."
+
+[home_performance_title]
+other = "أداء عالٍ"
+
+[home_performance_desc]
+other = "مكتوب بلغة Go مع محرك محسّن، يوفر Coraza فحصاً بمستوى ميكروثانية حتى عند ذروة حركة المرور."
+
+[home_extensible_title]
+other = "قابل للتوسع"
+
+[home_extensible_desc]
+other = "تتيح بنية الإضافات المعيارية إنشاء قواعد ومشغّلات وخلفيات تسجيل مخصصة تناسب احتياجاتك."
+
+# قسم النشر
+[home_deploy_title]
+other = "انشر في أي مكان"
+
+[home_deploy_desc]
+other = "Coraza ليس مجرد خدمة مستقلة. ادمجه مباشرةً في بنيتك التحتية باستخدام موصّلاتنا المتنوعة وحزم SDK."
+
+[home_copy_code]
+other = "نسخ الكود"
+
+# قسم المجتمع
+[home_community_eyebrow]
+other = "مدفوع بالمجتمع"
+
+[home_community_title]
+other = "انضم إلى حركة الأمان مفتوحة المصدر."
+
+[home_star_github]
+other = "أعطِ نجمة على GitHub"
+
+[home_join_slack]
+other = "انضم إلى Slack"
+
+[home_open_source]
+other = "مفتوح المصدر"
+
+# المدونة
+[blog_language_note]
+other = "قد لا تكون جميع المقالات مترجمة بعد. للاطلاع على أحدث المقالات:"
+
+[blog_language_switch]
+other = "تصفّح المدونة بالإنجليزية"

@@ -1,4 +1,5 @@
 const autoprefixer = require('autoprefixer');
+const postcssRTLCSS = require('postcss-rtlcss');
 const purgeCSSPlugin = require('@fullhuman/postcss-purgecss');
 
 const purgecss = purgeCSSPlugin({
@@ -12,6 +13,7 @@ const purgecss = purgeCSSPlugin({
         'data-bs-popper',
         'data-bs-target',
         'data-bs-theme',
+        'dir',
         'data-dark-mode',
         'data-global-alert',
         'data-pane', // tabs.js
@@ -56,6 +58,7 @@ const purgecss = purgeCSSPlugin({
 module.exports = {
   plugins: [
     autoprefixer(),
+    postcssRTLCSS(),
     ...(process.env.HUGO_ENVIRONMENT === "production" ? [purgecss] : []),
   ],
 };

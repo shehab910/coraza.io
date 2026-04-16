@@ -1,5 +1,18 @@
 // Put your custom SCSS code here
 
+// RTL: force code blocks to always render LTR
+[dir="rtl"] {
+  pre, code, kbd, samp, .highlight {
+    direction: ltr;
+    text-align: left;
+  }
+
+  :not(pre) > code {
+    unicode-bidi: embed;
+  }
+
+}
+
 // Sticky footer
 body {
   display: flex;
